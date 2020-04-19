@@ -25,7 +25,7 @@ def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #cheese_types.any? do |cheese|
   if cheese_types.include?(food)
-    food
+    return food
   else
     puts "NO"
   end
