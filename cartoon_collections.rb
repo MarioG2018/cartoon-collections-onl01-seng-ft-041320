@@ -14,20 +14,14 @@ end
 #end
 
 def long_planeteer_calls(calls)
-  #i=0
- # while i<calls.length
   calls.any? do|call|
   if(call.length>4)
     true
   else
     false
-#i+=1
   end
   end
 end
-#def long_planeteer_calls(planeteer_calls)
-#  planeteer_calls.any? { |call| call.length > 4 }
-#end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
